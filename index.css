@@ -72,8 +72,9 @@ body{
      padding: 20px;
       width: 50%;
       display:flex;
+      justify-content: space-evenly;
       flex-direction: column;
-      gap:20px;
+      gap:px;
 }
 .b-1{
     background-color:hsl(71, 73%, 54%) ;
@@ -93,5 +94,13 @@ body{
     align-content: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-    gap:20px;
+    gap:18px;
+}
+.gap{
+    font-size:35px ;
+    font-weight: 700;
+    color:hsl(204, 43%, 93%);
+}
+.price{
+    color:hsla(204, 43%, 93%,80%);
 }
