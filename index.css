@@ -108,8 +108,8 @@ body{
 .price{
     color:hsla(204, 43%, 93%,80%);
    display:flex;
-    gap:20px;
-      
+    gap:8px;
+      align-items: center;
      align-content: flex-start;
-     padding-top: 10px;
+     
 }
